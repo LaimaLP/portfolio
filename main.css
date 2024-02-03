@@ -32,12 +32,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px
 }
 
-h1 {
+.hero-container h1 {
     font-size: 50px;
     color: var(--myOrange);
+}
+.hero-container h4{
+    margin: 0;
 }
 
 .icons {
@@ -51,20 +53,47 @@ a {
     text-decoration: none;
     padding: 10px;
     border-radius: 50px;
-    /* box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0); */
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0);
 
 
 
 }
 
-.icons a :hover {
+/* .icons a i:hover:nth-child(2n+1) {
     color: rgb(172, 185, 197) !important;
     box-shadow: 0px 0px 5px 5px white;
-    border-radius: 50px;
-    /* padding: 10px; */
+    border-radius: 50%;
+    padding: 10px;
     text-decoration: none;
 
 }
+
+.icons a i:hover:nth-child(2) {
+    color: rgb(172, 185, 197) !important;
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 5px;
+    text-decoration: none;
+
+} */
+
+.icons a i:hover {
+    color: rgb(172, 185, 197) !important;
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+/* .icons a i:hover:nth-child(2) {
+    color: rgb(172, 185, 197) !important;
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 5px;
+    text-decoration: none;
+
+} */
+
+
 
 
 .logo {
