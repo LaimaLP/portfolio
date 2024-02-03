@@ -1,0 +1,59 @@
+h1{
+    color:crimson;
+}
+body{
+    background-image: url(/img/redMount.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    margin: 0; 
+    /* overflow: hidden;  */
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-container {
+  
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(141, 130, 130, 0);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-container h1{
+    color: rgb(252, 206, 3);
+
+}
+.icons{
+    font-size:50px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.my-custom-row {
+    background-color: rgba(254, 255, 255, 0.479);
+    border-radius: 20px;
+    border: none;
+}
+
+
