@@ -1,14 +1,15 @@
-h1{
-    color:crimson;
+:root {
+    --myOrange: rgb(252, 206, 3);
 }
-body{
-    background-image: url(/img/redMount.jpg);
 
+body {
+    background-image: url(/img/redMount.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-
-    margin: 0; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
     /* overflow: hidden;  */
 }
 
@@ -18,42 +19,152 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:50px;
+    gap: 150px;
     height: 100vh;
     width: 100%;
 }
 
 .hero-container {
-  
-    width: 500px;
-    height: 200px;
+
     border-radius: 10px;
     background-color: rgba(141, 130, 130, 0);
-      display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px
 }
-.hero-container h1{
-    color: rgb(252, 206, 3);
+
+h1 {
+    font-size: 50px;
+    color: var(--myOrange);
+}
+
+.icons {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0); */
+
+
 
 }
-.icons{
-    font-size:50px;
-    display: flex;
-    flex-direction: row;
-    gap:50px;
+
+.icons a :hover {
+    color: rgb(172, 185, 197) !important;
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 50px;
+    /* padding: 10px; */
+    text-decoration: none;
+
 }
-.logo{
+
+
+.logo {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .my-custom-row {
     background-color: rgba(254, 255, 255, 0.479);
     border-radius: 20px;
     border: none;
+    box-shadow: 2px 2px 10px 10px rgba(254, 255, 255, 0.479);
+}
+
+.about-me {
+    font-size: 20px;
+}
+
+.about-me h2 {
+    text-align: center;
+    color: var(--myOrange);
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    width: 200px;
+    margin: 60px auto;
+
+}
+
+.hi-there {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    border-top-right-radius: 20px;
+
+}
+
+.hi-there h4 {
+    color: var(--myOrange);
+}
+
+.hi-there p {
+    margin-bottom: 0;
+}
+
+.hi-there ul {
+    list-style: none;
+    line-height: 2rem;
+    padding-bottom: 30px;
+}
+
+.hi-there ul li:before {
+    content: '✓';
+    padding-right: 5px;
+
+}
+
+.hi-there a {
+    outline: none;
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-color: var(--myOrange);
+    color: black;
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-weight: 600;
 }
 
 
+
+.shine-through-btn::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), transparent, rgba(255, 255, 255, 0.5));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.shine-through-btn:hover {
+    background-color: orange; /* Maintain the button color on hover */
+}
+
+.shine-through-btn:hover::before {
+    opacity: 1;
+}
+.hi-there a:hover{
+    cursor: pointer;
+    animation-name: myBlink;
+    animation-duration: 0.4s;
+    transition: linear ease-in-out;
+}
+
+
+@keyframes myBlink {
+    0% { background-image: linear-gradient(135deg, white,  var(--myOrange), var(--myOrange),var(--myOrange),var(--myOrange));}
+    17% { background-image: linear-gradient(135deg,var(--myOrange), white, var(--myOrange) , var(--myOrange), var(--myOrange), var(--myOrange));}
+    28% { background-image: linear-gradient(135deg, var(--myOrange),var(--myOrange) ,white , var(--myOrange), var(--myOrange), var(--myOrange));}
+    51% { background-image: linear-gradient(135deg, var(--myOrange),var(--myOrange),var(--myOrange), white , var(--myOrange), var(--myOrange));}
+    72% { background-image: linear-gradient(135deg,var(--myOrange),var(--myOrange),var(--myOrange),var(--myOrange), white , var(--myOrange));}
+    100% {background-image: linear-gradient(135deg, var(--myOrange), var(--myOrange),var(--myOrange), var(--myOrange),  white );}
+  }
