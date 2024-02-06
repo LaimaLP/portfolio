@@ -15,7 +15,8 @@ const projectData = [
   {
     title: "Game with JS",
     img: "/img/game.png",
-    imgText: "text about JS game",
+    imgText:
+      "First-hand practice with JavaScript: Introducing a clicking game designed for practicing JavaScript skills.",
     linkToGit: "https://github.com/LaimaLP/CatchSquare",
     linkToPage: "https://laimalp.github.io/CatchSquare/",
   },
@@ -23,7 +24,8 @@ const projectData = [
   {
     title: "Landing Page with JS",
     img: "/img/collab.png",
-    imgText: "text about",
+    imgText:
+      "First landing page project practicing HTML and CSS, with added functionality implemented using JavaScript.",
     linkToGit: "https://github.com/LaimaLP/Collab-project",
     linkToPage: "https://laimalp.github.io/Collab-project/",
   },
@@ -31,7 +33,7 @@ const projectData = [
   {
     title: "Tic Tac Toe game",
     img: "/img/tictac.png",
-    imgText: `This Tic Tac Toe game was crafted with HTML, CSS, and React. The main focus explore React's
+    imgText: `This Tic Tac Toe game was created with HTML, CSS, and React. The main focus explore React's
     component-based architecture, emphasizing the using of props for data and functionality
     exchange between components.`,
 
@@ -41,15 +43,16 @@ const projectData = [
   {
     title: "Landing Page with React",
     img: "/img/BitMovie.png",
-    imgText: `Text about.`,
+    imgText: `Landing page created for practicing HTML, CSS, and applying React's DRY (Don't Repeat Yourself) principle.`,
 
     linkToGit: "https://github.com/LaimaLP/Movie-landingpage-react-main",
     linkToPage: "https://github.com/LaimaLP/Movie-landingpage-react-main",
   },
   {
-    title: "Bank with PHP",
+    title: "Bank Application with PHP",
     img: "/img/phpBank.png",
-    imgText: `Text about bank`,
+    imgText: `Bank Application with Flexible Data Storage (JSON file or MariaDB). The application incorporates 
+    object-oriented programming principles and CRUD operations.`,
 
     linkToGit: "https://github.com/LaimaLP/bank_oop",
     linkToPage: "https://github.com/LaimaLP/bank_oop",
