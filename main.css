@@ -42,12 +42,7 @@ body {
     margin: 0;
 }
 
-.icons {
-    font-size: 50px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
+
 
 a {
     text-decoration: none;
@@ -75,23 +70,31 @@ a {
     text-decoration: none;
 
 } */
+.icons {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    gap:20px;
+}
+
+
+.icons a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icons a i{
+    padding: 10px; 
+}
 
 .icons a i:hover {
     color: rgb(172, 185, 197) !important;
-    box-shadow: 0px 0px 5px 5px white;
+    box-shadow: 0px 0px 5px 2px white; 
     border-radius: 50%;
-    padding: 10px;
-    text-decoration: none;
-
+    padding: 10px; 
 }
 
-/* .icons a i:hover:nth-child(2) {
-    color: rgb(172, 185, 197) !important;
-    box-shadow: 0px 0px 5px 5px white;
-    border-radius: 5px;
-    text-decoration: none;
-
-} */
 
 
 
@@ -215,4 +218,13 @@ background-color: rgb(227, 227, 222);
 
 .modal-footer a:hover{
     background-color: rgba(34, 107, 201, 0.411);
+}
+
+.show-modal{
+    cursor: pointer;
+
+}
+
+.show-modal img:hover{
+    box-shadow: 7px 2px 10px 5px grey;
 }
