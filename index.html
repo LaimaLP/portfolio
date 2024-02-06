@@ -32,7 +32,10 @@
                     </a>
                     <a href="https://github.com/LaimaLP/portoflio/blob/main/L.Pileliene_CV.pdf" download> <i
                             class="fa-solid fa-download" style="color:rgb(16, 196, 16)"></i> </a>
+                    
 
+                    <a href="https://github.com/LaimaLP/portoflio/blob/main/L.Pileliene_CV.pdf" download> <img
+                            src="/img/pngwing.com.png" alt="cvdownload" style="width: 50px; margin-bottom: 7px;"></a>
                 </div>
             </div>
 
@@ -109,25 +112,56 @@
         <section class="mt-6 container about-me" style="margin-top: 100px">
             <h2>My Projects </h2>
             <div class="row">
-                <div class="col-md-4  mb-5 ">
-                    <img class="card-img-top rounded-4" src="/img/gameLogo.png" alt="catchJS">
+                <div class="col-md-4  mb-5 show-modal" modal-data= 'game' >
+                    <img id="aaaaa" class="card-img-top rounded-4" src="/img/gameLogo.png" alt="catchJS">
                 </div>
 
-                <div class="col-md-4  mb-5 ">
+                <div class="col-md-4  mb-5 show-modal" modal-data= 'collab' >
                     <img class="card-img-top rounded-4" src="/img/collablogo.png" alt="collabJS">
                 </div>
 
-                <div class="col-md-4  mb-5 ">
+                <div class="col-md-4  mb-5 show-modal" modal-data= 'tictac'>
                     <img class="card-img-top rounded-4" src="/img/tictaclogo.png" alt="ticTacReact">
                 </div>
 
             </div>
 
+        </section>
+
+
+        <section project-modal>
+
+            <div class="modal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content p-2">
+                        <div class="modal-header text-center">
+                            <h4 id="modalTitle" class="modal-title mx-auto"></h4>
+                            <button type="button" modal-close class="btn-close"></button>
+                        </div>
+                        <div class="modal-body  text-center">
+                            <img id="modalImg" class="card-img-top rounded-4" src="" alt="ticTacReact">
+
+                           <p id="modalImgText"></p>
+                        </div>
+                        <div class="modal-footer p-0 justify-content-center xs-2">
+                            <a  id="modalLinkToGit" href="" type="button" target="_blank" class="mx-4">
+                                <i class="fa-brands fa-github"> </i> View on Github</a>
+                            <a id="modalLinkToPage" href="" type="button" data-close target="_blank"><i
+                                    class="fa-solid fa-globe"></i> View Live Version</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
-    </main>
 
+
+
+
+
+    </main>
+    <script src="./script.js" ></script>
 </body>
 
 </html>

@@ -197,3 +197,22 @@ a {
     72% { background-image: linear-gradient(135deg,var(--myOrange),var(--myOrange),var(--myOrange),var(--myOrange), white , var(--myOrange));}
     100% {background-image: linear-gradient(135deg, var(--myOrange), var(--myOrange),var(--myOrange), var(--myOrange),  white );}
   }
+.modal{
+  color:black;
+    background-color: #7b797999;
+}
+.modal-content{
+    background-color: rgb(249, 249, 238);
+
+}
+.modal-footer a{
+    
+    color: black;
+ box-shadow: 2px 2px 2px  black;
+font-size: 16px;
+background-color: rgb(227, 227, 222);
+}
+
+.modal-footer a:hover{
+    background-color: rgba(34, 107, 201, 0.411);
+}
