@@ -14,7 +14,7 @@ const modalLinkToPage = document.getElementById("modalLinkToPage");
 const projectData = [
   {
     title: "Game with JS",
-    img: "/img/game.png",
+    img: "../img/game.png",
     imgText:
       "First-hand practice with JavaScript: Introducing a clicking game designed for practicing JavaScript skills.",
     linkToGit: "https://github.com/LaimaLP/CatchSquare",
@@ -23,7 +23,7 @@ const projectData = [
 
   {
     title: "Landing Page with JS",
-    img: "/img/collab.png",
+    img: "../img/collab.png",
     imgText:
       "First landing page project practicing HTML and CSS, with added functionality implemented using JavaScript.",
     linkToGit: "https://github.com/LaimaLP/Collab-project",
@@ -32,7 +32,7 @@ const projectData = [
 
   {
     title: "Tic Tac Toe game",
-    img: "/img/tictac.png",
+    img: "../img/tictac.png",
     imgText: `This Tic Tac Toe game was created with HTML, CSS, and React. The main focus explore React's
     component-based architecture, emphasizing the using of props for data and functionality
     exchange between components.`,
@@ -42,7 +42,7 @@ const projectData = [
   },
   {
     title: "Landing Page with React",
-    img: "/img/BitMovie.png",
+    img: "../img/BitMovie.png",
     imgText: `Landing page created for practicing HTML, CSS, and applying React's DRY (Don't Repeat Yourself) principle.`,
 
     linkToGit: "https://github.com/LaimaLP/Movie-landingpage-react-main",
@@ -50,7 +50,7 @@ const projectData = [
   },
   {
     title: "Bank Application with PHP",
-    img: "/img/phpBank.png",
+    img: "../img/phpBank.png",
     imgText: `Bank Application with Flexible Data Storage (JSON file or MariaDB). The application incorporates 
     object-oriented programming principles and CRUD operations.`,
 

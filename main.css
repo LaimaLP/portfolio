@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(/img/redMount.jpg);
+    background-image: url('../img/redMount.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
