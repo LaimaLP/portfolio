@@ -10,10 +10,21 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    /* overflow: hidden;  */
 }
 
+.hero-section{
+margin:150px auto;
+/* height: 100vh; */
+}
 
+/* .parent{
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+} */
 /* .hero {
 
     gap: 150px;
@@ -116,9 +127,9 @@ a {
 .about-me {
     font-size: 20px;
 }
-section{
-    height: 100vh;
-}
+/* section{
+    height: 100vh;  
+} */
 .about-me h2 {
     text-align: center;
     color: var(--myOrange);
@@ -135,6 +146,7 @@ section{
     border-top-right-radius: 20px;
 
 }
+
 
 .hi-there h4 {
     color: var(--myOrange);
@@ -158,12 +170,12 @@ section{
 
 .hi-there a {
     outline: none;
-    /* background-image: linear-gradient(to right, red , yellow); */
     background-color: var(--myOrange);
     color: black;
     padding: 5px 25px;
     border-radius: 20px;
     font-weight: 600;
+    align-items: center;
 }
 
 
