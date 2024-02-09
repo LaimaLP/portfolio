@@ -14,16 +14,12 @@ body {
 
 .hero-section{
 margin:150px auto;
-/* height: 100vh; */
 }
 
 
 .hero-container h1 {
     font-size: 50px;
     color: var(--myOrange);
-}
-.hero-container h4{
-    /* margin: 0; */
 }
 
 
@@ -38,22 +34,7 @@ a {
 
 }
 
-/* .icons a i:hover:nth-child(2n+1) {
-    color: rgb(172, 185, 197) !important;
-    box-shadow: 0px 0px 5px 5px white;
-    border-radius: 50%;
-    padding: 10px;
-    text-decoration: none;
 
-}
-
-.icons a i:hover:nth-child(2) {
-    color: rgb(172, 185, 197) !important;
-    box-shadow: 0px 0px 5px 5px white;
-    border-radius: 5px;
-    text-decoration: none;
-
-} */
 .icons {
     font-size: 50px;
     display: flex;
@@ -78,32 +59,20 @@ a {
     border-radius: 50%;
     padding: 10px; 
 }
-
-
-
-
-
 .logo {
     display: flex;
     flex-direction: row;
-
 }
-
 .my-custom-row {
     background-color: rgba(254, 255, 255, 0.3);
     border-radius: 20px;
     border: none;
     box-shadow: 0px 0px 10px 10px rgba(254, 255, 255, 0.3);
     background-size: cover;
-
 }
-
-
-
 .about-me {
     font-size: 20px;
 }
-
 .about-me h2 {
     text-align: center;
     color: var(--myOrange);
@@ -111,16 +80,13 @@ a {
     padding-bottom: 10px;
     width: 200px;
     margin: 50px auto;
-
 }
-
 .hi-there {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 25px;
     border-top-right-radius: 20px;
     margin-left: 100px;
 }
-
 .education{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 30px;
@@ -166,9 +132,6 @@ a {
     font-weight: 600;
     align-items: center;
 }
-
-
-
 .shine-through-btn::before {
     content: "";
     position: absolute;
@@ -180,7 +143,6 @@ a {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .shine-through-btn:hover {
     background-color: orange; /* Maintain the button color on hover */
 }
@@ -194,8 +156,6 @@ a {
     animation-duration: 0.4s;
     transition: linear ease-in-out;
 }
-
-
 @keyframes myBlink {
     0% { background-image: linear-gradient(135deg, white,  var(--myOrange), var(--myOrange),var(--myOrange),var(--myOrange));}
     17% { background-image: linear-gradient(135deg,var(--myOrange), white, var(--myOrange) , var(--myOrange), var(--myOrange), var(--myOrange));}
@@ -210,7 +170,6 @@ a {
 
 }
 .modal-content{
-    /* background-color: rgb(221, 221, 18); */
     background-image: linear-gradient(to right, rgba(48, 46, 46, 0), rgba(78, 44, 44, 0.849));
 }
 .modal-footer a{
@@ -252,13 +211,15 @@ list-style: none;
 
 }
 
+.ending-container a{
+ padding:0;
+}
+
 @media (max-width: 570px) {
     .my-custom-row{
         width:35%;
  
     }
-
-
 }
 
 @media (max-width: 1400px) {
@@ -270,5 +231,4 @@ list-style: none;
     margin-left: 0;
 
     }
-
 }
