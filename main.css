@@ -118,31 +118,15 @@ a {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 25px;
     border-top-right-radius: 20px;
-    margin-left: 50px;
-
+    margin-left: 100px;
 }
-
-  /* .text.text.show-more::before{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    border: 20px solid rgba(0, 0, 0, 0);
-     border-right: 20px solid rgb(145, 233, 204);
-    border-top: 20px solid rgb(145, 233, 204);
-    border-radius: 0 20px;
-  } */
-
-
-
-
 
 .education{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 30px;
     border-top-left-radius: 20px;
-    margin-right: 50px;
     position: relative;
+    margin-bottom: 15px;
 }
 .education h5{
     color: antiquewhite;
@@ -265,5 +249,26 @@ list-style: none;
    font-size: 15px;
    margin-right: 15px;
    
+
+}
+
+@media (max-width: 570px) {
+    .my-custom-row{
+        width:35%;
+ 
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+
+    .education, .hi-there{
+        width: 80%;
+    }
+    .hi-there{
+    margin-left: 0;
+
+    }
 
 }

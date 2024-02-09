@@ -46,7 +46,7 @@ const projectData = [
     imgText: `Landing page created for practicing HTML, CSS, and applying React's DRY (Don't Repeat Yourself) principle.`,
 
     linkToGit: "https://github.com/LaimaLP/Movie-landingpage-react-main",
-    linkToPage: "https://github.com/LaimaLP/Movie-landingpage-react-main",
+    linkToPage: "https://laimalp.github.io/Movie-landingpage-react-main/",
   },
   {
     title: "Bank Application with PHP",
