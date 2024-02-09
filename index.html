@@ -75,22 +75,33 @@
 
 
 
-        <section class="container about-me flex-wrap">
-            <h2>ABOUT ME</h2>
+        <section class="container d-flex flex-wrap about-me">
 
-            <div class="row">
+            <h2>About Me</h2>
+            <div class="row  justify-content-center">
+                <div class="col-md-4 education">
+                    <h3>Education <i class="fa-solid fa-graduation-cap" style="margin-left: 30px; font-size: 45px;"></i>
+                    </h3>
 
-                <div class="col-md-6">
+                    <p>2023 - 2024</p>
+                    <h5> Baltic Institute of Technology</h5>
+                    <p> Full stack developer</p>
+                    <hr>
 
-                    <div class="col-md-10 mb-5 show-modal" modal-data='bitMovie'>
-                        <img class="card-img-top rounded-4" src="./img/BitMovieLogo.png" alt="boostrap">
-                    </div>
+                    <p>2016 - 2018</p>
+                    <h5> Vilnius University</h5>
+                    <p>Master’s degree in Molecular Biology</p>
+                    <hr>
 
-                    <div class="col-md-10 mb-5 show-modal" modal-data='bank'>
-                        <img class="card-img-top rounded-4" src="./img/phpBank - Copy.png" alt="boostrap">
-                    </div>
+                    <p>2012 - 2016</p>
+                    <h5> Vilnius University</h5>
+                    <p> Bachelor’s degree in Molecular Biology</p>
+
+
                 </div>
-                <div class="col-md-6 hi-there">
+
+                <div class="col-md-7 hi-there ">
+
                     <h3> Hi There! I'm Laima Pilelienė</h3>
                     <h4>Full-Stack Developer </h4>
                     <p> At the moment I'm studying modular professional training program for PHP + JS. <br><br> Modal
@@ -110,6 +121,7 @@
                     </p>
                     <a href="https://bit.lt/studijos/full-stack-kursai/" target="_blank"> Visit this Course </a>
                 </div>
+
             </div>
         </section>
 
@@ -117,16 +129,22 @@
             <h2>My Projects </h2>
             <div class="row justify-content-center">
 
-                <div class="col-md-5 mb-5 show-modal" modal-data='bitMovie'>
-                    <img class="card-img-top rounded-4" src="./img/BitMovieLogo.png" alt="boostrap">
+                <div class="col-md-4 mb-5 show-modal" modal-data='bank'>
+                    <img class="card-img-top rounded-4" src="./img/phpBank - Copy.png" alt="phpBank">
+                </div>
+                <div class="col-md-4 mb-5 show-modal" modal-data='autoPage'>
+                    <img class="card-img-top rounded-4" src="./img/AutoPageLogo.png" alt="autoPage">
+                </div>
+                <div class="col-md-4 mb-5 show-modal" modal-data='bitmovie'>
+                    <img class="card-img-top rounded-4" src="./img/BitMovieLogo.png" alt="bitMovie">
                 </div>
 
-                <div class="col-md-5 mb-5 show-modal" modal-data='bank'>
-                    <img class="card-img-top rounded-4" src="./img/phpBank - Copy.png" alt="boostrap">
-                </div>
 
             </div>
             <div class=" row">
+                <div class="col-md-4  mb-5 show-modal" modal-data='tictac'>
+                    <img class="card-img-top rounded-4" src="./img/tictaclogo.png" alt="ticTacReact">
+                </div>
                 <div class="col-md-4  mb-5 show-modal" modal-data='game'>
                     <img id="aaaaa" class="card-img-top rounded-4" src="./img/gameLogo.png" alt="catchJS">
                 </div>
@@ -134,11 +152,6 @@
                 <div class="col-md-4  mb-5 show-modal" modal-data='collab'>
                     <img class="card-img-top rounded-4" src="./img/collablogo.png" alt="collabJS">
                 </div>
-
-                <div class="col-md-4  mb-5 show-modal" modal-data='tictac'>
-                    <img class="card-img-top rounded-4" src="./img/tictaclogo.png" alt="ticTacReact">
-                </div>
-
             </div>
 
         </section>
@@ -154,8 +167,7 @@
                             <button type="button" modal-close class="btn-close"></button>
                         </div>
                         <div class="modal-body  text-center">
-                            <img id="modalImg" class="card-img-top rounded-4" src="" alt="ticTacReact">
-
+                            <img id="modalImg" class="card-img-top rounded-4" src="" alt="project-img">
                             <p id="modalImgText"></p>
                         </div>
                         <div class="modal-footer p-0 justify-content-center xs-2">
@@ -167,7 +179,28 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section>
+            <h4>Other minimalistic projects:</h4>
+            <ul>
+                <li>
+                    <a href="https://laimalp.github.io/country/"> Search for Country. Practise with React, utilizing
+                        useEffect and fetch
+                        for data retrieval.</a>
+                </li>
+                <li><a href="https://laimalp.github.io/Task-management/" target="_blank"> To do app with JavaScript.
+                    </a>
+                </li>
+                <li><a href="https://laimalp.github.io/SumNumberGame/" target="_blank"> Count number sum with
+                        JavaScript. </a>
+                </li>
+                <li><a href="https://laimalp.github.io/food-project/" target="_blank"> Page for HTML, CSS practise. </a>
+                </li>
+                <li><a href="https://laimalp.github.io/46-GRUPE-REAL-ESTATE/" target="_blank"> Page for HTML, CSS
+                        practise. </a>
+                </li>
+            </ul>
         </section>
     </div>
     <script src="./script.js"></script>

@@ -57,6 +57,14 @@ const projectData = [
     linkToGit: "https://github.com/LaimaLP/bank_oop",
     linkToPage: "https://github.com/LaimaLP/bank_oop",
   },
+  {
+    title: "First Landing Page",
+    img: "./img/AutoPage.png",
+    imgText: `Landing page created for self-learning prior to studies.`,
+
+    linkToGit: "https://github.com/LaimaLP/Project_2_LaimaAuto",
+    linkToPage: "https://laimalp.github.io/Project_2_LaimaAuto/",
+  },
 ];
 
 modalClose.addEventListener("click", (_) => {
@@ -71,30 +79,41 @@ modalOpen.forEach((item) => {
       modalImgText.innerHTML = projectData[0].imgText;
       modalLinkToGit.setAttribute("href", projectData[0].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[0].linkToPage);
+
     } else if (item.getAttribute("modal-data") == "collab") {
       modalTitle.innerHTML = projectData[1].title;
       modalImg.setAttribute("src", projectData[1].img);
       modalImgText.innerHTML = projectData[1].imgText;
       modalLinkToGit.setAttribute("href", projectData[1].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[1].linkToPage);
+
     } else if (item.getAttribute("modal-data") == "tictac") {
       modalTitle.innerHTML = projectData[2].title;
       modalImg.setAttribute("src", projectData[2].img);
       modalImgText.innerHTML = projectData[2].imgText;
       modalLinkToGit.setAttribute("href", projectData[2].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[2].linkToPage);
+
     } else if (item.getAttribute("modal-data") == "bitMovie") {
       modalTitle.innerHTML = projectData[3].title;
       modalImg.setAttribute("src", projectData[3].img);
       modalImgText.innerHTML = projectData[3].imgText;
       modalLinkToGit.setAttribute("href", projectData[3].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[3].linkToPage);
+
     } else if (item.getAttribute("modal-data") == "bank") {
       modalTitle.innerHTML = projectData[4].title;
       modalImg.setAttribute("src", projectData[4].img);
       modalImgText.innerHTML = projectData[4].imgText;
       modalLinkToGit.setAttribute("href", projectData[4].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[4].linkToPage);
+      
+    }else if (item.getAttribute("modal-data") == "autoPage") {
+      modalTitle.innerHTML = projectData[5].title;
+      modalImg.setAttribute("src", projectData[5].img);
+      modalImgText.innerHTML = projectData[5].imgText;
+      modalLinkToGit.setAttribute("href", projectData[5].linkToGit);
+      modalLinkToPage.setAttribute("href", projectData[5].linkToPage);
     }
     modal.style.display = "block";
   });
