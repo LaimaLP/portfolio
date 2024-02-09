@@ -82,14 +82,17 @@ a {
     margin: 50px auto;
 }
 .hi-there {
+    position: relative;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 25px;
     border-top-right-radius: 20px;
     margin-left: 100px;
+    margin-bottom: 15px;
+
 }
 .education{
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px 30px;
+    padding: 20px 25px;
     border-top-left-radius: 20px;
     position: relative;
     margin-bottom: 15px;
@@ -99,9 +102,6 @@ a {
     font-size: 25px;
 }
 
-.hi-there{
-    position: relative;
-}
 
 .hi-there  h4, .education h3, .ending-container h4 {
     color: var(--myOrange);
