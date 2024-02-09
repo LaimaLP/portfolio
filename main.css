@@ -157,7 +157,7 @@ a {
 }
 
 
-.hi-there  h4, .education h3 {
+.hi-there  h4, .education h3, .ending-container h4 {
     color: var(--myOrange);
 }
 
@@ -227,10 +227,11 @@ a {
 .modal{
   color:black;
     background-color: #7b797999;
+
 }
 .modal-content{
-    background-color: rgb(249, 249, 238);
-
+    /* background-color: rgb(221, 221, 18); */
+    background-image: linear-gradient(to right, rgba(48, 46, 46, 0), rgba(78, 44, 44, 0.849));
 }
 .modal-footer a{
     
@@ -253,4 +254,18 @@ background-color: rgb(227, 227, 222);
     box-shadow: 7px 2px 10px 5px grey;
 }
 
+.ending-container a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 
+}
+.ending-container ul{
+list-style: none;
+}
+
+.ending-container i{
+    margin-right: 10px;
+    color: var(--myOrange);
+
+}

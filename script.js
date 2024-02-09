@@ -94,7 +94,7 @@ modalOpen.forEach((item) => {
       modalLinkToGit.setAttribute("href", projectData[2].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[2].linkToPage);
 
-    } else if (item.getAttribute("modal-data") == "bitMovie") {
+    } else if (item.getAttribute("modal-data") == "bitmovie") {
       modalTitle.innerHTML = projectData[3].title;
       modalImg.setAttribute("src", projectData[3].img);
       modalImgText.innerHTML = projectData[3].imgText;
@@ -107,7 +107,7 @@ modalOpen.forEach((item) => {
       modalImgText.innerHTML = projectData[4].imgText;
       modalLinkToGit.setAttribute("href", projectData[4].linkToGit);
       modalLinkToPage.setAttribute("href", projectData[4].linkToPage);
-      
+
     }else if (item.getAttribute("modal-data") == "autoPage") {
       modalTitle.innerHTML = projectData[5].title;
       modalImg.setAttribute("src", projectData[5].img);
@@ -118,3 +118,5 @@ modalOpen.forEach((item) => {
     modal.style.display = "block";
   });
 });
+
+
