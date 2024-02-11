@@ -55,7 +55,7 @@ const projectData = [
     object-oriented programming principles and CRUD operations.`,
 
     linkToGit: "https://github.com/LaimaLP/bank_oop",
-    linkToPage: "https://github.com/LaimaLP/bank_oop",
+    linkToPage: "https://www.youtube.com/watch?v=k_QdqbQpp08",
   },
   {
     title: "First Landing Page",
