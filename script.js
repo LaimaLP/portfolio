@@ -25,7 +25,7 @@ const projectData = [
     title: "Landing Page with JS",
     img: "./img/collab.png",
     imgText:
-      "First landing page project practicing HTML and CSS, with added functionality implemented using JavaScript.",
+      "Landing page project practicing HTML and CSS, with added functionality implemented using JavaScript. Responsive web design.",
     linkToGit: "https://github.com/LaimaLP/Collab-project",
     linkToPage: "https://laimalp.github.io/Collab-project/",
   },
@@ -60,7 +60,7 @@ const projectData = [
   {
     title: "First Landing Page",
     img: "./img/AutoPage.png",
-    imgText: `Landing page created for self-learning prior to studies.`,
+    imgText: `Landing page created for self-learning prior to studies. Responsive web design.`,
 
     linkToGit: "https://github.com/LaimaLP/Project_2_LaimaAuto",
     linkToPage: "https://laimalp.github.io/Project_2_LaimaAuto/",
